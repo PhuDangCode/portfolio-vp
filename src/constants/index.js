@@ -36,7 +36,7 @@ export const EXPERIENCES = [{
     },
     {
         image: cook,
-        role: "CooKing",
+        role: "Cooking",
         company: "Baking",
         description: `Cooking is also a significant part of my life. I always enjoy trying out new recipes, even though my cooking skills aren't the best. In the culinary world, I greatly admire Gordon Ramsay. I also have a particular fondness for bread, especially donuts, and I can make various types of bread. I feel that cooking helps me practice patience, precision, and other valuable life skills.`,
     },

@@ -54,7 +54,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5, delay: 1 }}
         className="flex w-full min-h-screen justify-center items-center">
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-purple-500 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
+        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-[#163853] w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
           <div className="flex flex-col space-y-8 justify-between">
             <div>
               <h1 className="font-bold text-4xl tracking-wide">Contact Me</h1>

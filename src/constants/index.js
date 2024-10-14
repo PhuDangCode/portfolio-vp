@@ -118,7 +118,7 @@ export const PROJECTS = [{
 ];
 
 export const CONTACT = {
-    address: "64 Le Thanh Nghi, Quy Nhon, Binh Dinh, Viet Nam ",
+    address: "Samsora Riverside Appartment , B21.09 ,Binh Thắng 2 ward , Dĩ An  City , Binh Duong Province ",
     phoneNo: "+84 905 657 088 ",
     email: "10421047@student.vgu.edu.vn.com",
 };

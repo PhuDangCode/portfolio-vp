@@ -104,7 +104,7 @@ const Contact = () => {
                   <label htmlFor="message" className="text-sm">Your Message</label>
                   <textarea rows="4" name="message" placeholder="Message" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-purple-300" />
                 </div>
-                <button type="submit" className="inline-block self-end bg-purple-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send</button>
+                <button type="submit" className="inline-block self-end bg-[#163853] text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send</button>
               </form>
             </div>
           </div>

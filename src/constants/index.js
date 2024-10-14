@@ -16,6 +16,7 @@ import steganography from "../assets/projects/steganography.jpg"
 import bill from "../assets/projects/bill.jpg"
 import bank from "../assets/projects/bank.jpg"
 import chat from "../assets/projects/chat.jpg"
+import vfc from "../assets/projects/logo.png"
 
 
 export const HERO_CONTENT = `I am an enthusiastic full stack developer with a talent for building resilient and scalable web applications. I have sharpened my abilities in front-end frameworks like React and Next.js, along with back-end technologies including Node.js, MySQL, PostgreSQL, MongoDB, Python, and Java. My aim is to use my expertise to develop cutting-edge solutions that fuel business growth and provide outstanding user experiences.`;
@@ -107,6 +108,12 @@ export const PROJECTS = [{
         image: steganography,
         description: "Making an applicaiton to hidden message to image, using 3 algorhtm are least sinificant bit, pixel value differencing, matrix embedded.",
         technologies: ["Python","Least Significant Bit","Pixel Value Differencing","Matrix Embbeded"],
+    },
+    {
+        title: "VFC Website",
+        image: vfc,
+        description: "Using reactjs, tailwind, postgres to build a website for football club of University. The website has the information of members in coreteam, the number of matches, also the news and video about the club",
+        technologies: ["React","Tailwind","Postgres"],
     },
 ];
 

@@ -1,7 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import chatbot from "../assets/projects/chatbot.jpg";
 import guitar from "../assets/projects/guitar.jpg";
 import football from "../assets/projects/football.jpg";
 import cook from "../assets/projects/cook.jpg";
@@ -17,6 +14,10 @@ import bill from "../assets/projects/bill.jpg"
 import bank from "../assets/projects/bank.jpg"
 import chat from "../assets/projects/chat.jpg"
 import vfc from "../assets/projects/logo.png"
+import attendance from "../assets/projects/attendance.png"
+import currency from "../assets/projects/currency.jpg"
+import wordle from "../assets/projects/wordle.jpg"
+
 
 
 export const HERO_CONTENT = `I am an enthusiastic full stack developer with a talent for building resilient and scalable web applications. I have sharpened my abilities in front-end frameworks like React and Next.js, along with back-end technologies including Node.js, MySQL, PostgreSQL, MongoDB, Python, and Java. My aim is to use my expertise to develop cutting-edge solutions that fuel business growth and provide outstanding user experiences.`;
@@ -52,69 +53,110 @@ export const EXPERIENCES = [{
 export const PROJECTS = [{
         title: "Mythos Library",
         image: library,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "The online library management system project aims to streamline library operations, improve the user experience, and enhance access to library resources. It automates tasks such as book cataloging, tracking, and borrowing while offering user-friendly interfaces for staff and patrons. The system increases operational efficiency, improves accessibility, and provides a centralized platform for managing library resources.",
-        technologies: ["Firebasse", "CSS", "React", "Node.js", "MongoDB","Express"],
+        technologies: ["Firebase", "CSS", "React", "Node.js", "MongoDB", "Express"],
     },
     {
         title: "Chat App",
         image: chat,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Building chat app using react js and firestore, which allow users can login to web and chat together.",
-        technologies: ["React", "antd","Firebase"],
+        technologies: ["React", "Firebase"],
     },
     {
         title: "DNS",
         image: dns,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "A simple dns tool to retrieve the domain name of all website in the world",
-        technologies: ["Java","Google port"],
+        technologies: ["Java"],
     },
     {
         title: "Body Indexes Monitoring",
         image: body,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Using python and sql, make a smartwatch simulate the body indexes by random number and send to sql then login to web to see the number.",
-        technologies: ["HTML", "CSS", "Python","Postgres"],
+        technologies: ["HTML", "CSS", "Python", "Postgres"],
     },
     {
         title: "Bank Management System",
         image: bank,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Using Workbench for Sql and java, to create bank managment system to managae user which can deposit withdrawal in bank.",
         technologies: ["Java", "Oop", "Workbench"],
     },
     {
         title: "Hospital Managment System",
         image: hospital,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Based on sql and python tkinter, make an patient information managment system.",
-        technologies: ["Python", "Tkinter","Workbench"],
+        technologies: ["Python", "Workbench"],
     },
     {
         title: "Internet Speed Detection",
         image: internet,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Using python with speedtest libary and apply algorithms to calculate the speed of internet.",
         technologies: ["Python"],
     },
     {
         title: "Bill Managment System",
         image: bill,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "building bill managament system which can manage the sum of profit(coffee,restaurant,..)",
-        technologies: ["Python","Workbench"],
+        technologies: ["Python", "Workbench"],
     },
     {
         title: "Bmi Calculator",
         image: bmi,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Mini project with python to calculate healt number which can show the healt situation of client",
         technologies: ["Python"],
     },
     {
         title: "Steganography",
         image: steganography,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Making an applicaiton to hidden message to image, using 3 algorhtm are least sinificant bit, pixel value differencing, matrix embedded.",
-        technologies: ["Python","Least Significant Bit","Pixel Value Differencing","Matrix Embbeded"],
+        technologies: ["Python"],
     },
     {
         title: "VFC Website",
         image: vfc,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
         description: "Using reactjs, tailwind, postgres to build a website for football club of University. The website has the information of members in coreteam, the number of matches, also the news and video about the club",
-        technologies: ["React","Tailwind","Postgres"],
+        technologies: ["React", "Tailwind", "Postgres"],
     },
+    {
+        title: "Chatbot",
+        image: chatbot,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
+        description: "Building chatbot using python and flask, which allow users can login to web and chat together.",
+        technologies: ["Python", "Chainlit", "Google OAuth", "OpenAI"],
+    },
+    {
+        title: "Smart Attendance System",
+        image: attendance,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
+        description: "Developed a smart attendance system incorporating face detection, recognition, and liveness detection. Attendance updates are automatically recorded in Google Sheets using Python, Raspberry Pi, and Google Cloud APIs (Google Sheets API, Google Drive API).",
+        technologies: ["Python", "Raspberry Pi", "Google Cloud"],
+    },
+    {
+        title: "Currency Converter",
+        image: currency,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
+        description: "Built a feature-rich currency converter application that allows users to convert currencies, view rate trends between two selected currencies, and see currency rankings based on USD. Developed using the ExchangeRate API with Kotlin and Java.",
+        technologies: ["Kotlin", "Java"],
+    },
+    {
+        title: "Wordle Game",
+        image: wordle,
+        link: "https://www.facebook.com/profile.php?id=100014377148812",
+        description: "Created an interactive Wordle game using Python for backend logic and a modern user interface with HTML, Tailwind CSS, and API integration for dynamic gameplay.",
+        technologies: ["Python", "HTML", "API"],
+    },
+
+
 ];
 
 export const CONTACT = {

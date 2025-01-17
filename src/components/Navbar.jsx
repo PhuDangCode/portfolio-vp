@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import emailjs from 'emailjs-com';
 import logo from "../assets/vp.png";
-import cool from "../assets/cool.png";
+import cool from "../assets/cool.jpg";
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
 import Draggable from 'react-draggable';
 
@@ -61,7 +61,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </button>
 
-      {isCardVisible && (
+      {/* {isCardVisible && (
         <Draggable>
           <div className="absolute top-16 left-1/3 transform -translate-x-1/2 max-w-md overflow-hidden rounded-2xl shadow-lg group z-50">
             <img src={cool} alt="" className="transition-transform group-hover:scale-110 duration-200" />
@@ -79,7 +79,7 @@ const Navbar = () => {
             </button>
           </div>
         </Draggable>
-      )}
+      )} */}
 
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/phu-mai-nguyen-viet-663628252/" target="_blank" rel="noopener noreferrer">

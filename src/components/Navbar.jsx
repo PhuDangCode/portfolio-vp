@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import emailjs from 'emailjs-com';
 import logo from "../assets/vp.png";
-import cool from "../assets/cool.png";
+import cool from "../assets/cool.jpg";
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
 import Draggable from 'react-draggable';
 

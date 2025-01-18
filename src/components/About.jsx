@@ -8,7 +8,7 @@ import baking from "../assets/donut.jpg";
 import cocktail from "../assets/cocktail.jpg";
 import programming from "../assets/programing.jpg";
 import scholarship from "../assets/scholarship.jpg";
-import presto from "../assets/presto.jpg";
+import presto from "../assets/Presto.jpg";
 import team from "../assets/vgufootball.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion, AnimatePresence } from "framer-motion";

@@ -2,14 +2,16 @@ import React, { useState, useRef, useId, useEffect } from "react";
 import aboutImg from "../assets/aboutme.jpg";
 import left from "../assets/left.jpg";
 import right from "../assets/right.jpg";
-import football from "../assets/football.jpg";
+import team from "../assets/football.jpg";
 import chineseChess from "../assets/chinesechess.jpg";
 import baking from "../assets/donut.jpg";
 import cocktail from "../assets/cocktail.jpg";
 import programming from "../assets/programing.jpg";
+import billiard from "../assets/billiard.jpg";
+import guitar from "../assets/guitar.jpg";
 import scholarship from "../assets/scholarship.jpg";
-import presto from "../assets/Presto.jpg";
-import team from "../assets/vgufootball.jpg";
+import presto from "../assets/presto.jpg";
+import football from "../assets/vgufootball.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { Compare } from "./ui/compare";
@@ -287,6 +289,39 @@ const cards = [
         Whether it’s mixing a classic cocktail or creating something new, the process is both relaxing and rewarding, making every sip a moment to savor.
       </p>
       
+      );
+    },
+  },
+  {
+    description: "Music Lover",
+    title: "Guitar and Music",
+    src: guitar,
+    ctaText: "View",
+    ctaLink: "https://ui.aceternity.com/templates",
+    content: () => {
+      return (
+        <p>
+          Playing the guitar and immersing myself in music is my favorite way to relax and express creativity.
+          I enjoy exploring different genres and techniques, whether it's strumming chords, fingerpicking, or playing solos. <br /> <br />
+          Music has a unique way of connecting people and evoking emotions, and I find great joy in both performing and listening to it.
+          Every session with my guitar is an opportunity to learn, grow, and enjoy the beauty of music.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Billiards Enthusiast",
+    title: "Pool and Carom",
+    src: billiard,
+    ctaText: "View",
+    ctaLink: "https://ui.aceternity.com/templates",
+    content: () => {
+      return (
+        <p>
+          Billiards is my passion, and I enjoy playing various forms of the game, including pool, carom, and 3-cushion carom.
+          The precision and strategy involved in each shot make the game both challenging and exhilarating. <br /> <br />
+          Whether it's a casual game with friends or a competitive match, I find great satisfaction in honing my skills and mastering the art of billiards.
+        </p>
       );
     },
   },

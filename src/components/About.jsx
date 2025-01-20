@@ -10,7 +10,7 @@ import programming from "../assets/programing.jpg";
 import billiard from "../assets/billiard.jpg";
 import guitar from "../assets/guitar.jpg";
 import scholarship from "../assets/scholarship.jpg";
-import presto from "../assets/presto.jpg";
+import presto from "../assets/Presto.jpg";
 import football from "../assets/vgufootball.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion, AnimatePresence } from "framer-motion";
